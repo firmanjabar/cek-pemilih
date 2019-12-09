@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hasil Pemilihan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            background: #eeedec;
+            letter-spacing: 0.2em;
+            font-size: 0.8em;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5 mx-auto text-center">
+        <h3 class="text-muted my-4">Hasil Pemilihan Umum</h3>
+        <button class="btn btn-large btn-danger mb-3" id="hitungSuara">Hitung Hasil Suara</button>
+
+        <h5 class="mb-2">Memperoleh suara sebanyak:</h5>
+
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h3 id='1'>
+                    0
+                </h3>
+            </div>
+            <div class="col-sm-6">
+                <h3 id='2'>
+                    0
+                </h3>
+            </div>
+        </div>
+
+        <div id="app" class="card-group shadow-lg rounded">
+        </div>
+
+        <script src="./hasil.js"></script>
+        <script src="./data.js"></script>
+</body>
+
+</html>

@@ -1,14 +1,4 @@
-const pemilih = [{
-        id: '1234',
-        img: 'https://avatars0.githubusercontent.com/u/45032367?s=460&v=4jpg',
-        name: 'Firman Abdul Jabar',
-    },
-    {
-        id: '1235',
-        img: 'https://avatars1.githubusercontent.com/u/26153479?s=460&v=4',
-        name: 'Rakhmat Khaidir',
-    },
-];
+// CEK-PEMILIH
 
 const nipForm = document.querySelector('form');
 
@@ -51,35 +41,4 @@ nipForm.addEventListener('submit', e => {
             document.getElementById('app').innerHTML = html;
         }
     }
-
-    // pemilih.forEach(cekPemilih);
-
-    // function cekPemilih(value, index, array) {
-    //     if (nip == value['id']) {
-    //         // console.log(value['id'], value['name'], value['img'])
-    //         let html = `
-    //             <img src="${value['img']}" class="card-img-top" />
-    //             <div class="text-muted text-center">
-    //                 <h5 class="my-3">
-    //                     ${value['name']}
-    //                 </h5>
-    //                 <p class="mb-4">${value['id']}</p>
-    //             </div>
-    //         `
-
-    //         document.getElementById('app').innerHTML = html;
-    //     } else {
-    // let html = `
-    //     <img src="https://via.placeholder.com/400x300" class="card-img-top" />
-    //     <div class="text-muted text-center">
-    //         <h5 class="my-3">
-    //             Data Not Found
-    //         </h5>
-    //         <p class="mb-4">NIP NOT FOUND</p>
-    //     </div>
-    // `
-
-    // document.getElementById('app').innerHTML = html;
-    // }
-    // }
-})
+});
